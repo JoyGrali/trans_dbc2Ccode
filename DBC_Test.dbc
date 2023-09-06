@@ -1,0 +1,132 @@
+VERSION "created by canmatrix"
+
+
+NS_ :
+
+BS_:
+
+BU_: Board1 PC 
+
+
+BO_ 2147483905 Board1_Set_IO: 8 PC
+ SG_ IO_01 : 0|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_02 : 1|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_03 : 2|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_04 : 3|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_05 : 4|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_06 : 5|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_07 : 6|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_08 : 7|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_09 : 8|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_10 : 9|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_11 : 10|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_12 : 11|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_13 : 12|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_14 : 13|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_15 : 14|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_16 : 15|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_17 : 16|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_18 : 17|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_19 : 18|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_20 : 19|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_21 : 20|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_22 : 21|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_23 : 22|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_24 : 23|1@0+ (1,0) [0|1] "flg" Board1
+
+BO_ 2147483906 Board1_Reset_IO: 8 PC
+ SG_ IO_01 : 0|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_02 : 1|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_03 : 2|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_04 : 3|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_05 : 4|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_06 : 5|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_07 : 6|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_08 : 7|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_09 : 8|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_10 : 9|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_11 : 10|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_12 : 11|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_13 : 12|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_14 : 13|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_15 : 14|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_16 : 15|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_17 : 16|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_18 : 17|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_19 : 18|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_20 : 19|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_21 : 20|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_22 : 21|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_23 : 22|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_24 : 23|1@0+ (1,0) [0|1] "flg" Board1
+
+BO_ 2147483907 Board1_Global_Ctrl: 8 PC
+ SG_ IO_Set : 0|1@0+ (1,0) [0|1] "flg" Board1
+ SG_ IO_Reset : 1|1@0+ (1,0) [0|1] "flg" Board1
+
+
+
+CM_ SG_ 2147483905 IO_01 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_02 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_03 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_04 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_05 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_06 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_07 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_08 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_09 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_10 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_11 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_12 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_13 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_14 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_15 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_16 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_17 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_18 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_19 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_20 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_21 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_22 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_23 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483905 IO_24 "0Not Control ; 1Set IO ;";
+CM_ SG_ 2147483906 IO_01 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_02 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_03 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_04 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_05 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_06 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_07 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_08 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_09 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_10 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_11 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_12 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_13 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_14 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_15 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_16 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_17 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_18 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_19 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_20 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_21 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_22 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_23 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483906 IO_24 "0Not Control ; 1Reset IO ;";
+CM_ SG_ 2147483907 IO_Set "0Not Control ; 1Set ALL IO ;";
+CM_ SG_ 2147483907 IO_Reset "0Not Control ; 1Reset ALL IO ;";
+
+
+BA_DEF_ BO_ "GenMsgCycleTimeActive" INT 0 65535;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 65535;
+BA_DEF_ BO_ "GenMsgNrOfRepetitions" INT 0 65535;
+BA_DEF_ BO_ "GenMsgSendType" ENUM "NoMsgSendType";
+BA_DEF_ SG_ "GenSigSNA" STRING;
+
+
+BA_ "GenMsgSendType" BO_ 2147483905 0;
+BA_ "GenMsgSendType" BO_ 2147483906 0;
+BA_ "GenMsgSendType" BO_ 2147483907 0;
+
+
